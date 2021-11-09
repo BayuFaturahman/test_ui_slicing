@@ -234,7 +234,7 @@ class _PageTest2State extends State<PageTest2> {
                                                     fontWeight: FontWeight.bold),
                                               )),
                                           decoration: BoxDecoration(
-                                              color: Colors.blue,
+                                              color: Colors.blueAccent,
                                               borderRadius:
                                               BorderRadius.circular(10)),
                                           width: 70,
