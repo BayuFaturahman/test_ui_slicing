@@ -38,18 +38,21 @@ class _PageTest2State extends State<PageTest2> {
                             children: [
                               Row(
                                 children: [
-                                  Container(
-                                    height: 20,
-                                    width: 20,
-                                    child: const Center(
-                                        child: Icon(
-                                          Icons.arrow_back,
-                                          color: Colors.white,
-                                          size: 15,
-                                        )),
-                                    decoration: BoxDecoration(
-                                        color: Colors.blue,
-                                        borderRadius: BorderRadius.circular(10)),
+                                  InkWell(
+                                    onTap: ()=>Get.back(),
+                                    child: Container(
+                                      height: 20,
+                                      width: 20,
+                                      child: const Center(
+                                          child: Icon(
+                                            Icons.arrow_back,
+                                            color: Colors.white,
+                                            size: 15,
+                                          )),
+                                      decoration: BoxDecoration(
+                                          color: Colors.blue,
+                                          borderRadius: BorderRadius.circular(10)),
+                                    ),
                                   ),
                                   const SizedBox(
                                     width: 5,
@@ -159,7 +162,7 @@ class _PageTest2State extends State<PageTest2> {
                                                   "Barang Bekas",
                                                   style: TextStyle(
                                                       color: Colors.white,
-                                                      fontSize: 12,
+                                                      fontSize: 10,
                                                       fontWeight: FontWeight.bold),
                                                 )),
                                             decoration: BoxDecoration(
@@ -178,7 +181,7 @@ class _PageTest2State extends State<PageTest2> {
                                                   "Stok 100",
                                                   style: TextStyle(
                                                       color: Colors.white,
-                                                      fontSize: 12,
+                                                      fontSize: 10,
                                                       fontWeight: FontWeight.bold),
                                                 )),
                                             decoration: BoxDecoration(
@@ -230,7 +233,7 @@ class _PageTest2State extends State<PageTest2> {
                                                 "Diskon 10%",
                                                 style: TextStyle(
                                                     color: Colors.white,
-                                                    fontSize: 12,
+                                                    fontSize: 10,
                                                     fontWeight: FontWeight.bold),
                                               )),
                                           decoration: BoxDecoration(

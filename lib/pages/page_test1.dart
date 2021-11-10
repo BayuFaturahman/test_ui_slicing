@@ -264,7 +264,7 @@ class _PageTest1State extends State<PageTest1> {
                                         "Diskon 10%",
                                         style: TextStyle(
                                             color: Colors.white,
-                                            fontSize: 12,
+                                            fontSize: 10,
                                             fontWeight: FontWeight.bold),
                                       )),
                                       decoration: BoxDecoration(

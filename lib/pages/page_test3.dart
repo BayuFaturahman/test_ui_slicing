@@ -34,18 +34,21 @@ class _PageTest3State extends State<PageTest3> {
                   padding: const EdgeInsets.all(15.0),
                   child: Row(
                     children: [
-                      Container(
-                        height: 20,
-                        width: 20,
-                        child: const Center(
-                            child: Icon(
-                              Icons.arrow_back,
-                              color: Colors.white,
-                              size: 15,
-                            )),
-                        decoration: BoxDecoration(
-                            color: Colors.blue,
-                            borderRadius: BorderRadius.circular(10)),
+                      InkWell(
+                        onTap:()=>Get.back(),
+                        child: Container(
+                          height: 20,
+                          width: 20,
+                          child: const Center(
+                              child: Icon(
+                                Icons.arrow_back,
+                                color: Colors.white,
+                                size: 15,
+                              )),
+                          decoration: BoxDecoration(
+                              color: Colors.blue,
+                              borderRadius: BorderRadius.circular(10)),
+                        ),
                       ),
                       const SizedBox(
                         width: 5,
