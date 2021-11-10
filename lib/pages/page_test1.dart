@@ -235,6 +235,7 @@ class _PageTest1State extends State<PageTest1> {
                                     MainAxisAlignment.spaceBetween,
                                 children: [
                                   Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
                                     children: const [
                                       Text(
                                         "Rp.6.000",
